@@ -1,0 +1,114 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(244, 244, 244);
+}
+
+#title{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4vw;
+    width: 100%;
+    color: whitesmoke;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52) 10%, rgba(117, 19, 93, 0.73) 50%, rgb(244, 244, 244)), url("plant.jpg");
+    background-size: cover;
+}
+ 
+.paragraph{
+    color: #222222;
+}
+
+.header{
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 250%;
+}
+
+.content{
+    margin-left: 2vw;
+    font-family: 'Quicksand', sans-serif;
+    width: 95%;
+    line-height: 50px;
+    font-size: 200%;
+    font-weight: 500;
+    padding: 2px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    transition-timing-function: easo;
+}
+
+
+#accordion label + input[type="checkbox"]:checked + .content{
+    max-height: 1000px;
+}
+/* #accordion label + input[type="checkbox"]:checked + .arrow{
+    transform: rotate(90deg);
+} */
+
+.cleanGreen{
+    color: rgb(97, 71, 32);
+    font-weight: bolder;
+}
+
+#accordion li{
+    width: 80%;
+    padding: 3vw;
+    list-style: none;   
+    
+}
+
+#accordion li label{
+    padding: 0.5vw;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 200%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.arrow{
+    float: right;
+    margin-right: 2%;
+    margin-top: 15px;
+    width: 24px;
+    height: 24px;
+    transform: rotate(90deg);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.accordionCheckBox{
+    display: none;
+
+}
+
+.description{
+    position: relative;
+    padding: 7vw;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+}
+
+.descriptionTitle{
+    font-size: 200%;
+}
+
+
+
+
