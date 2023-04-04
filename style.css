@@ -72,6 +72,7 @@ body {
 }
 
 #accordion li label{
+    user-select: none;
     padding: 0.5vw;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
@@ -105,12 +106,10 @@ body {
     overflow: hidden;
 
 }
-.text-images{
-    float: right;
-}
 
 .description img{
-    margin-left: 20%;
+    margin-left: 2%;
+    float: right;
 }
 
 .descriptionTitle{
