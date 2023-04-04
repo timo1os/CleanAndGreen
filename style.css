@@ -98,11 +98,19 @@ body {
 }
 
 .description{
-    position: relative;
     padding: 7vw;
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
-    width: 50%;
+    width: 80%;
+    overflow: hidden;
+
+}
+.text-images{
+    float: right;
+}
+
+.description img{
+    margin-left: 20%;
 }
 
 .descriptionTitle{
