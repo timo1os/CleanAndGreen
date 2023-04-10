@@ -41,7 +41,7 @@ body {
     transition:  .5s;
 }
 
-a.active, .navBar ul li a:hover{
+.navBar ul li a:hover{
     color: #0082e6;
 }
 
