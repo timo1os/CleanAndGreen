@@ -182,8 +182,8 @@ body {
 }
 
 .card{
-    width: 270px;
-    margin: 30px;
+    width: 350px;
+    margin: 5%;
     border-style: solid;
     border-color: #222222;
     border-width: 2px;
@@ -192,7 +192,7 @@ body {
 }
 
 .card-image{
-    height: 170px;
+    height: 200px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
@@ -219,12 +219,12 @@ body {
 
 #card-1
 {
-    background-image: url("squareplaceholder.png");
+    background-image: url("pouring oil.jpg");
 }
 
 #card-2
 {
-    background-image: url("Logo.jpg");
+    background-image: url("plant in a soil.jpg");
 }
 
 footer *{
