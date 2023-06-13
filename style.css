@@ -287,7 +287,8 @@ footer *{
     margin-bottom: 10px;
 }
 
-.footerColumn ul li a{
+.footerIntractable{
+    padding-left: 5px;
     font-size: 16px;
     color: #bbbbbb;
     text-decoration: none;
@@ -295,20 +296,9 @@ footer *{
     transition: all 0.3s ease;
 }
 
-.footerColumn ul li a:hover{
+.footerIntractable:hover{
     color: #ffffff;
     padding-left: 10px;
-}
-
-.footerColumn .social-links a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    color: #bbbbbb;
-    transition: all 0.5s ease;
-}
-.footerColumn .social-links a:hover{
-    color: #ffffff;
 }
 
 @media(max-width: 767px){
